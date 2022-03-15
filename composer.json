@@ -1,0 +1,23 @@
+{
+    "name": "tsch/groupforcharts",
+    "description": "A simple laravel package for grouping eloquent queries by month for chart use",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TSCH\\GroupForCharts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tom SCHIAVI",
+            "email": "tom.schiavi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.3",
+        "guzzlehttp/guzzle": "^7.2",
+        "laravel/framework": "^8.65"
+    }
+}
